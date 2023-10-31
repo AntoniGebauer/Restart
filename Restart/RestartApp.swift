@@ -1,17 +1,16 @@
 //
-//  RestartApp.swift
-//  Restart
-//
-//  Created by Antoni Gebauer on 31/10/2023.
+//  Created by Robert Petras
+//  Credo Academy ♥ Design and Code
+//  https://credo.academy
 //
 
 import SwiftUI
 
 @main
 struct RestartApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }
