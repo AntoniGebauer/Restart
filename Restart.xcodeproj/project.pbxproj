@@ -16,6 +16,7 @@
 		C9ED825C2AF16111002DDF40 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9ED825A2AF16111002DDF40 /* chimeup.mp3 */; };
 		C9ED825D2AF16111002DDF40 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C9ED825B2AF16111002DDF40 /* success.m4a */; };
 		C9ED825F2AF16130002DDF40 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED825E2AF16130002DDF40 /* AudioPlayer.swift */; };
+		C9ED82622AF161B2002DDF40 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED82612AF161B2002DDF40 /* CircleGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		C9ED825A2AF16111002DDF40 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		C9ED825B2AF16111002DDF40 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 		C9ED825E2AF16130002DDF40 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		C9ED82612AF161B2002DDF40 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				C9ED824A2AF15E93002DDF40 /* Assets.xcassets */,
 				C9ED824C2AF15E93002DDF40 /* Preview Content */,
 				C9ED82602AF16138002DDF40 /* Utilities */,
+				C9ED82632AF161B7002DDF40 /* Views */,
 			);
 			path = Restart;
 			sourceTree = "<group>";
@@ -104,6 +107,14 @@
 				C9ED825E2AF16130002DDF40 /* AudioPlayer.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C9ED82632AF161B7002DDF40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C9ED82612AF161B2002DDF40 /* CircleGroupView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +193,7 @@
 				C9ED82582AF16094002DDF40 /* OnboardingView.swift in Sources */,
 				C9ED825F2AF16130002DDF40 /* AudioPlayer.swift in Sources */,
 				C9ED82492AF15E93002DDF40 /* ContentView.swift in Sources */,
+				C9ED82622AF161B2002DDF40 /* CircleGroupView.swift in Sources */,
 				C9ED82472AF15E93002DDF40 /* RestartApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
